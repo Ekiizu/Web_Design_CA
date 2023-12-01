@@ -1,0 +1,25 @@
+
+@import "../node_modules/bootstrap/scss/functions";
+
+
+
+$enable-rounded: false;
+
+$primary: rgb(157,63,239);
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+
+
+
+
+$custom-colors: (
+  "primary-light":   rgb(237,222,249),
+ 
+);
+
+
+$theme-colors: map-merge($theme-colors , $custom-colors );
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
