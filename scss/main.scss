@@ -15,9 +15,18 @@ $primary: rgb(157,63,239);
 
 
 $custom-colors: (
-  "primary-light":   rgb(237,222,249),
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       rgb(40,34,31)
+) !default;
+
  
-);
+
 
 
 $theme-colors: map-merge($theme-colors , $custom-colors );
