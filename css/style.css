@@ -5,10 +5,32 @@
 
 }
 
-.col{
-  background-color: #28221F;
-}
+
 
 .h1{
     color: aliceblue;
+}
+
+
+.footer-background {
+  /* The image used */
+  background-image: url("/images/FooterShape.png");
+
+  /* Full height */
+
+  height: 200px;
+ 
+
+}
+
+.funkyshape{
+  background-image: url("/images/funkyimage.png");
+
+  height: 560px;
+  width: 90%;
+
+}
+
+.bg-dark-grad{
+  background: linear-gradient(to bottom, #28221F, #3E3129);
 }
